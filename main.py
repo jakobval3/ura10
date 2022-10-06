@@ -8,8 +8,8 @@ while True:
     attempts += 1
 
     if guess == secret:
-        print("You've guessed it - congratulations! It's number " + str(secret))
-        print("Attempts needed: " + str(attempts))
+        print(f"You've guessed it - congratulations! It's number {guess}" )
+        print(f"Attempts needed: {attempts}")
         break
     elif guess > secret:
         print("Your guess is not correct... try something smaller")
